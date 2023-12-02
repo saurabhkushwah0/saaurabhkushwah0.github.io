@@ -72,7 +72,7 @@ jobs:
 
       - name: Download Resume
         run: |
-          curl -Lo ./out/resume.pdf https://github.com/saurabhkushwah0/resume/releases/download/latest/download/resume.pdf
+          curl -Lo ./out/resume.pdf https://github.com/saurabhkushwah0/resume/releases/latest/download/resume.pdf
 
       - name: Create CNAME file
         run: |
