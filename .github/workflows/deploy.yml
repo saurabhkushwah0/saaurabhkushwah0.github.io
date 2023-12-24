@@ -75,7 +75,7 @@ jobs:
         with:
           root_file: ./resume.tex
           working_directory: ./resume
-          post_compile: "cp ./resume.pdf ../"
+          post_compile: "cp ./resume.pdf ../out/"
           # extra_fonts: |
           #   ./path/to/custom.ttf
           #   ./fonts/*.otf
