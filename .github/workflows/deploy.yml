@@ -70,6 +70,16 @@ jobs:
       - name: Build project assets
         run: ${{ steps.detect-package-manager.outputs.manager }} build
 
+      - name: Compile Resume
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: ./resume/resume.tex
+          working_directory: ./resume
+          post_compile: "cp ./resume.pdf ../"
+          # extra_fonts: |
+          #   ./path/to/custom.ttf
+          #   ./fonts/*.otf
+
       - name: Download Resume
         run: |
           curl -Lo ./out/resume.pdf https://github.com/saurabhkushwah0/resume/releases/latest/download/resume.pdf

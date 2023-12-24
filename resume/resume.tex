@@ -1,0 +1,268 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[5]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1}
+
+        \if\relax\detokenize{#2}\relax
+            % nothing
+        \else
+            $|$ \small{#2}
+        \fi
+
+        & \textbf{\small #3} \\
+        {\small#4} & {\small #5} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Saurabh Singh Kushwah} \\ \vspace{1pt}
+    Pune, India \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}
+        \faPhone\ 920-968-1432 ~
+        % \href{https://saurabhkushwah.com/}{\raisebox{-0.2\height}\faLink\ saurabhkushwah.com}  ~
+        \href{mailto:saurabh.singh.kushwah.1999@gmail.com}{\raisebox{-0.2\height}\faEnvelope\ saurabh.singh.kushwah.1999@gmail.com} ~
+        \href{https://linkedin.com/in/saurabh-kushwah/}{\raisebox{-0.2\height}\faLinkedin\ saurabh-kushwah}  ~
+    \vspace{-8pt}
+\end{center}
+
+% %------RELEVANT COURSEWORK-------
+% \section{Relevant Coursework}
+%     %\resumeSubHeadingListStart
+%         \begin{multicols}{4}
+%             \begin{itemize}[itemsep=-5pt, parsep=3pt]
+%                 \item\small Data Structures
+%                 \item Software Methodology
+%                 \item Algorithms Analysis
+%                 \item Database Management
+%                 \item Artificial Intelligence
+%                 \item Internet Technology
+%                 \item Systems Programming
+%                 \item Computer Architecture
+%             \end{itemize}
+%         \end{multicols}
+%         \vspace*{2.0\multicolsep}
+%     %\resumeSubHeadingListEnd
+
+% Druva
+%     1. Support Database Workload
+%     2. Daintree RBAC & Product Telemetry
+%     3. UDA Support
+%     4. Session Enhancements
+%     5. AWS Nighlty
+%     6. COGS Program
+%     7. Resty Bug
+
+% Persistent Systems
+%     1. Report Framework
+%     2. Link/DeLink Paperwork
+%     3. Dynamic Role Based Menu
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Druva Data Solutions}{Go, AWS, Distributed Systems}{Jun 2022 -- Current}
+      {Staff Software Engineer}{Pune, IN}
+      \resumeItemListStart
+        \resumeItem{\textbf{Daintree Team}: Working on Druva's next-generation storage system. Managing data, deduplication, and file systems.}
+        \resumeItem{\textbf{CloudCache Development}: Contributed to the development of CloudCache, an on-premise software appliance that optimizes backup and restores. \textbf{Reduced backup and restore time by 30\%}, improving data protection and minimizing downtime.\textbf{(Go, Channels)}}
+        \resumeItem{\textbf{Ransomware Recovery}: Contributed to the development \textbf{\href{https://docs.druva.com/Cyber_Resilience/Ransomware_Recovery/Quarantine_Bay}{\raisebox{-0.2\height}Quarantine Bay\ \faLink}} feature to effectively isolate and contain infected components during a ransomware attack. This feature aims to prevent the spread of infection by isolating and containing the affected parts.}
+        \resumeItem{\textbf{Body Swap Bug}: Identified and resolved a crucial bug in the HTTP client package, rectifying issues related to request body swaps and data corruption. Introduced verification measures across all APIs as a temporary solution until the underlying package bug was fixed.}
+        \resumeItem{\textbf{AWS E2E Pipeline}: Designed end-to-end infrastructure and pipeline systems for testing on AWS, establishing the standard approach for testing pre-production releases seamlessly, eliminating the need for manual intervention. \textbf{(Python, AWS SSM)}}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Persistent Systems}{Java, Spring Boot, Micro Service}{Jul 2021 -- Jun 2022}
+      {Software Engineer}{Pune, IN}
+      \resumeItemListStart
+        \resumeItem{Contributing to the development of an ERP system for \textbf{BlueDart}, the largest courier company in India.}
+        \resumeItem{\textbf{Report System}: Designed and implemented a comprehensive reporting system that currently supports over 100 reports and their corresponding APIs}
+        \resumeItem{\textbf{Role Based Menu}: Designed and implemented a dynamic, role-based menu system that generates a user interface menu based on individual roles and dynamically adapts to changes in user privileges.\textbf{(IAM, K8 ConfigMap)}}
+        \resumeItem{\textbf{Link/DeLink Paperwork}: Engineered a feature facilitating the linking and delinking of packages upon arrival at any pickup location. Integrated external shipping APIs seamlessly using asynchronously.\textbf{(Async Java)}}
+    \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Go, Rust, Java, Python, C, SQL, Shell} \\
+     \textbf{AWS}{: DDB, S3, ECS, SQS, RDS, SSM} \\
+     \textbf{Tools}{: Linux, Docker, Kubernetes, Jenkins, Git} \\
+     \textbf{Web}{: Go-Kit, Tokio, Spring Boot} \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+%-----------AWARDS-----------
+\section{Awards}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Druva Company-Wide Hackathon Winner - AI Assistant} \textbf{\href{https://saurabhkushwah.com/static/documents/hackathon-winner-2023.pdf}{\faLink}} $|$ {Go, Shell, Google DialogFlow}}{Jan 2023}
+          \resumeItemListStart
+            \resumeItem{Led winning team in Druva's company-wide hackathon with 200+ participants.}
+            \resumeItem{Developed an AI-powered support assistant that automated customer data analysis, eliminating the need for support staff to seek developer assistance.}
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{All Stars Awards} \textbf{\href{https://saurabhkushwah.com/static/documents/all-stars-award.pdf}{\faLink}} $|$ {Go, Shell}}{Jun 2023}
+          \resumeItemListStart
+            \resumeItem{Received recognition for outstanding efforts in achieving FedRAMP compliance for the project.}
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{High Five - Individual Awards} \textbf{\href{https://saurabhkushwah.com/static/images/high-five-award.png}{\faLink}} $|$ {Java, Spring Boot}}{Mar 2022}
+          \resumeItemListStart
+            \resumeItem{Received an award in recognition of successfully managing multiple features independently, executing them in parallel, and consistently meeting deadlines.}
+          \resumeItemListEnd
+          % \vspace{-13pt}
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Full-Text Search Engine} $|$ {Go, Inverted Index}}{Apr 2021}
+          \resumeItemListStart
+            \resumeItem{Developed FTS engine able to search across thousands of documents in less than a millisecond.}
+            \resumeItem{FTS engine extended to support more sophisticated boolean queries by utilizing a multi-stage process encompassing tokenizer, filters, stop words removal, and stemming to construct the Inverted Index.}
+          \resumeItemListEnd
+          % \vspace{-13pt}
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Savitribai Phule Pune University}{}{Jun. 2017 -- Jun 2021}
+      {Bachelor of Engineering in Computer Science}{Pune, IN}
+  \resumeSubHeadingListEnd
+
+% % %------RELEVANT COURSEWORK-------
+% \section{Interests}
+%     %\resumeSubHeadingListStart
+%         \begin{multicols}{4}
+%             \begin{itemize}[itemsep=-5pt, parsep=3pt]
+%                 \item\small Data Structures
+%                 \item Distributed Systems
+%                 \item Operating Systems
+%                 \item Compilers
+%             \end{itemize}
+%         \end{multicols}
+%         \vspace*{2.0\multicolsep}
+%     %\resumeSubHeadingListEnd
+
+\end{document}
