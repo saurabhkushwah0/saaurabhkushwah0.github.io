@@ -80,10 +80,6 @@ jobs:
           #   ./path/to/custom.ttf
           #   ./fonts/*.otf
 
-      - name: Download Resume
-        run: |
-          curl -Lo ./out/resume.pdf https://github.com/saurabhkushwah0/resume/releases/latest/download/resume.pdf
-
       - name: Create CNAME file
         run: |
           echo "saurabhkushwah.com" > ./out/CNAME
