@@ -11,6 +11,7 @@ const siteMetadata = {
   email: 'saurabh.singh.kushwah.1999@gmail.com',
   github: 'https://github.com/saurabhkushwah0',
   linkedin: 'https://www.linkedin.com/in/saurabh-kushwah',
+  socialBanner: '/static/images/twitter-card.png',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
